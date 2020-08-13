@@ -27,6 +27,10 @@ Pet.prototype = {
         this.hunger += 5
         this.fitness -= 3
     },
+
+    walk: function() {
+        this.fitness += 4
+    }
 }
 
 module.exports = Pet;
